@@ -4,28 +4,34 @@ html {
 
 body {
     margin: 0;
-    font-family: system-ui, sans-serif;
+    font-family: 'Cambria', sans-serif;
     line-height: 1.6;
 }
 
-.container {
-    width: 100%;
-    padding: 1rem;
+
+@media (min-width: 768px) {
+    body {
+        margin: 0;
+        font-family: 'Times New Roman', sans-serif;
+        line-height: 1.6;
+        color: green;
+    }
 }
 
-h1 {
-    font-size: 1.75rem;
+@media (min-width: 1024px) {
+    body {
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+        line-height: 1.6;
+        color: red;
+    }
 }
 
-h2 {
-    font-size: 1.4rem;
-}
-
-p {
-    font-size: 1rem;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
+@media (min-width: 1280px) {
+    body {
+        margin: 0;
+        font-family: 'Franklin Gothic Medium', sans-serif;
+        line-height: 1.6;
+        color: blue;
+    }
 }
